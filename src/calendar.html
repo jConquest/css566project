@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calendar Page</title>
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/calendar.css">
+  <link href='../lib/fullcalendar-4.1.0/packages/core/main.css' rel='stylesheet' />
+  <link href='../lib/fullcalendar-4.1.0/packages/daygrid/main.css' rel='stylesheet' />
+  <script src='../lib/fullcalendar-4.1.0/packages/core/main.js'></script>
+  <script src='../lib/fullcalendar-4.1.0/packages/interaction/main.js'></script>
+  <script src='../lib/fullcalendar-4.1.0/packages/daygrid/main.js'></script>
+</head>
+
+<body>
+  <script src="js/calendar.js"></script>
+
+  <div class="site-wrap">
+    <nav>
+      <ul>
+        <br><br>
+        <a href="index.html"><li><br><img src="images/dashboard.png" height="70px" width="70px"><br>Dashboard</li></a>
+        <a href="#"><li><br><img src="images/calendar.png" height="70px" width="70px"><br>Calendar</li></a>
+        <a href="#"><li><br><img src="images/courses.png" height="70px" width="70px"><br>Courses</li></a>
+        <a href="#"><li><br><img src="images/inbox.png" height="70px" width="70px"><br>Inbox</li></a>
+        <a href="#"><li><br><img src="images/profile.png" height="70px" width="70px"><br>Profile</li></a>
+      </ul>
+    </nav>
+
+    <div class="push-wrap">
+      <article>
+        <a href="#" class="toggle-nav"><img src="images/menu.png" height="60px" width="60px"></a>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+
+              <h1>Definitely Not Canvas</h1>
+            </div>
+          </div>
+          <div id="calendar"></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>

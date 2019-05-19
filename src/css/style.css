@@ -1,0 +1,123 @@
+/* IMPORTANT STUFF */
+nav {
+  width: 400px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.site-wrap {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.push-wrap {
+  -webkit-transition: all 300ms ease 0;
+  -moz-transition: all 300ms ease 0;
+  -o-transition: all 300ms ease 0;
+  transition: all 300ms ease 0;
+  
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.show-nav .push-wrap {
+  -webkit-transform: translate(275px, 0);
+  -moz-transform: translate(275px, 0);
+  -ms-transform: translate(275px, 0);
+  -o-transform: translate(275px, 0);
+  transform: translate(275px, 0);
+  
+  -webkit-transform: translate3d(275px, 0, 0);
+  -moz-transform: translate3d(275px, 0, 0);
+  -ms-transform: translate3d(275px, 0, 0);
+  -o-transform: translate3d(275px, 0, 0);
+  transform: translate3d(275px, 0, 0);
+}
+
+
+
+/* BASE CSS */
+body {
+  background: #e3e3e3;
+}
+a {
+  transition: all 300ms ease;
+}
+nav {
+  background: #e47b7b;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none !important;
+  line-height: 60px;
+  font-size: 18px;
+  font-family: Century Gothic;
+  color: white;
+}
+nav ul a:hover {
+  text-decoration: none !important;
+  font-size: 18px;
+  color: white;
+}
+nav ul a li {
+  display: block;
+  height: auto;
+  
+}
+nav ul a li:hover {
+  background: #f88888;
+}
+nav ul a li img:hover {
+  color: #eda9a9;
+}
+article {
+  position: relative;
+  min-height: 1500px;
+  background: #e3e3e3;
+  z-index: 9;
+  width: 100%;
+}
+article h1 {
+  text-align: center;
+  font-family: Century Gothic;
+  margin: 40px 0 30px;
+}
+article p {
+  font-size: 20px;
+  font-family: Century Gothic;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+article a.toggle-nav {
+  position: absolute;
+  font-size: 25px;
+  font-family: Century Gothic;
+  color: rgb(255, 139, 139);
+  top: 0;
+  left: 0;
+  background: #e47b7b;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+article a.toggle-nav:hover {
+  color: red; 
+}
+i {
+  color: pink;
+}
