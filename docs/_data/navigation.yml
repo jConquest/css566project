@@ -1,15 +1,15 @@
 - name: Dashboard
-  link: /dashboard.html
+  link: dashboard.html
   image: dashboard.png
 - name: Calendar
-  link: /calendar.html
+  link: calendar.html
   image: calendar.png
 - name: Courses
-  link: /courses.html
+  link: courses.html
   image: courses.png
 - name: Inbox
-  link: /inbox.html
+  link: inbox.html
   image: inbox.png
 - name: Profile
-  link: /profile.html
+  link: profile.html
   image: profile.png
