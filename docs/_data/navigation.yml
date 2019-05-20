@@ -1,2 +1,15 @@
-- name: Home
-  link: /home.html
+- name: Dashboard
+  link: /dashboard.html
+  image: dashboard.png
+- name: Calendar
+  link: /calendar.html
+  image: calendar.png
+- name: Courses
+  link: /courses.html
+  image: courses.png
+- name: Inbox
+  link: /inbox.html
+  image: inbox.png
+- name: Profile
+  link: /profile.html
+  image: profile.png

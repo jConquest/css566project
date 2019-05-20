@@ -1,0 +1,16 @@
+<nav>
+  <ul>
+    <br \>
+    <br \>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}">
+        <li>
+          <br \>
+          <img src="assets/images/nav/{{ item.image }}" height="70px" width="70px" \>
+          <br \>
+          {{ item.name }}
+        </li>
+      </a>
+    {% endfor %}
+  </ul>
+</nav>
