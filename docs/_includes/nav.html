@@ -1,15 +1,11 @@
-<nav>
-  <ul>
-    <br \><br \><br \><br \><br \><br \><br \>
+<div id="mySidenav" class="sidenav"><br><br>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="assets/images/wmenu.png" height="70px" width="130px"></a>
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}">
-        <li>
           <br \>
           <img src="assets/images/nav/{{ item.image }}" height="70px" width="70px" \>
           <br \>
           {{ item.name }}
-        </li>
       </a>
     {% endfor %}
-  </ul>
-</nav>
+</div>
