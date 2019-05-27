@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>API Test</title>
+</head>
+<body>
+  <div id='test'></div>
+
+  <script>
+  getCalendarEvents("studenta");
+
+  function getCalendarEvents(username)
+  {
+    let base_url = "https://css566api.azurewebsites.net/api/calendar";
+    let rest_url = `${base_url}?userName=${username}`;
+    fetch(rest_url, {mode: "cors"})
+    .then(function(response)
+    {
+      if(response.ok)
+      {
+        return response.json();
+      }
+    }).catch(err => console.error(`Error occurred: ${err}`))
+    .then(function (calendarJSON)
+    {
+      makeCalendar(calendarJSON);
+    })
+    .catch(err => console.error(`Error occurred: ${err}`)); // end fetch
+
+  } // end getCalendarEvents
+
+  function makeCalendar(calendarEvents)
+  {
+    document.getElementById("test").innerHTML = JSON.stringify(calendarEvents);
+  }  // end makeCalendar
+
+  function test(blabla)
+  {
+    let base_url = "https://api.stackexchange.com/2.2/questions";
+    let num_results = "5";
+    let tag = "yolo";
+    let page="stackoverflow";
+    let rest_url = `${base_url}?pagesize=${num_results}&tagged=${tag}&site=${page}`;
+    fetch(rest_url)
+      .then(function(response)
+      {
+        if(response.ok) { return response.json(); }
+        else { console.log(`GET resulted in status: ${response.status}!`)}
+      }) // end then
+      .then(function (calendarJSON)
+      {
+        console.log(calendarJSON)
+        document.getElementById("test").innerHTML = JSON.stringify(calendarJSON);
+        // do something with calendarJSON here
+      }); // end then
+  } // end test
+  </script>
+</body>
+</html>
