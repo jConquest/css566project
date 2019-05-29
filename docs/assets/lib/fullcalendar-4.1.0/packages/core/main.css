@@ -299,7 +299,7 @@ temporary rendered events).
   bottom: -1px;
   left: -1px;
   /* darkening effect */
-  background: #000;
+  background: #e47b7b;
   opacity: .25; }
 
 /* Event Dragging
@@ -501,7 +501,7 @@ TODO: more distinction between this file and common.css
   background: #eee; }
 
 .fc-unthemed td.fc-today {
-  background: #fcf8e3; }
+  background: #fefafa; }
 
 .fc-unthemed .fc-disabled-day {
   background: #d7d7d7;
@@ -588,7 +588,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 .fc-button {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #e47b7b;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -603,7 +603,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   border-radius: 0.25em; }
 
 .fc-button:hover {
-  color: #212529;
+  color: #e47b7b;
   text-decoration: none; }
 
 .fc-button:focus {
@@ -617,13 +617,13 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 /* "primary" coloring */
 .fc-button-primary {
   color: #fff;
-  background-color: #2C3E50;
-  border-color: #2C3E50; }
+  background-color: #e47b7b;
+  border-color: #e47b7b; }
 
 .fc-button-primary:hover {
   color: #fff;
-  background-color: #1e2b37;
-  border-color: #1a252f; }
+  background-color: #e47b7b;
+  border-color: #e47b7b; }
 
 .fc-button-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
@@ -631,14 +631,14 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 
 .fc-button-primary:disabled {
   color: #fff;
-  background-color: #2C3E50;
-  border-color: #2C3E50; }
+  background-color: #e47b7b;
+  border-color: #e47b7b; }
 
 .fc-button-primary:not(:disabled):active,
 .fc-button-primary:not(:disabled).fc-button-active {
   color: #fff;
-  background-color: #1a252f;
-  border-color: #151e27; }
+  background-color: #e47b7b;
+  border-color: #e47b7b; }
 
 .fc-button-primary:not(:disabled):active:focus,
 .fc-button-primary:not(:disabled).fc-button-active:focus {
