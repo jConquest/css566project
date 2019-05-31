@@ -12,10 +12,6 @@
     text-transform: none;
 }
 
-a {
-    color: rgb(37, 37, 37) !important;
-}
-
 .title {
     color: #5F5F5F;
     font-family: 'fcicons' !important;
@@ -30,11 +26,13 @@ a {
     font-family: 'fcicons' !important;
     font-size: 18px;
     font-weight: 700;
+    text-align: left;
 }
 
 .details {
     font-family: 'fcicons' !important;
     color:#f8dddd;
+    text-align: left;
 }
 
 .rounded {
