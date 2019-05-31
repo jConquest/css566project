@@ -1,43 +1,34 @@
-<!-- ---
+---
 layout: default
 title: Dashboard
---- -->
-<!DOCTYPE html>
-<html>
-    <head>
-        <link href="dashboard.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <title>Example</title>
-    </head>
-    <body>
-            <div class="container">
-                    <div class="row">
-                            <h1 class="title">Dashboard</h1>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-4">
-                        <div class="rounded classbox">
-                            <a href="inbox.html" target="_blank"><p class="subtitle">CSS 566 A Sp 19: Software Management</p></a>
-                            <p class="details">Instructor: Prof. Bantwal</br>Discovery Hall, Room 252</br>T/TH 8pm-10pm</p>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="rounded classbox">
-                            <a href="inbox.html" target="_blank"><p class="subtitle">CSS 553 A Sp 19: Software Architecture</p></a>
-                            <p class="details">Instructor: Prof. Hazel</br>UW1 010</br>TM/W 5.45pm-8pm</p>
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="rounded classbox">
-                            <a href="inbox.html" target="_blank"><p class="subtitle">CSS 584 A Au 18: Multimedia Database Systems</p></a>
-                            <p class="details">Instructor: Prof. Min CHen</br>UW2 110</br>TT/TH 5.45pm-8pm</p>
-                        </div>
-                        <!-- <h3 class="subtitle">Column 3</h3> 
-                        <p>Lorem ipsum dolor..</p> -->
-                      </div>
-                    </div>
-                  </div>
-    </body>
-</html>
+head_include: |
+    <link href="dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+---
+<div class="container">
+        <!-- <div class="row">
+                <h1 class="title">Definitely Not Canvas</h1>
+        </div> -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="rounded classbox">
+                <a href="inbox.html" target="_blank"><p class="subtitle">CSS 566 A Sp 19: Software Management</p></a>
+                <p class="details">Instructor: Prof. Bantwal</br>Discovery Hall, Room 252</br>T/TH 8pm-10pm</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="rounded classbox">
+                <a href="inbox.html" target="_blank"><p class="subtitle">CSS 553 A Sp 19: Software Architecture</p></a>
+                <p class="details">Instructor: Prof. Hazel</br>UW1 010</br>TM/W 5.45pm-8pm</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="rounded classbox">
+                <a href="inbox.html" target="_blank"><p class="subtitle">CSS 584 A Au 18: Multimedia Database Systems</p></a>
+                <p class="details">Instructor: Prof. Min CHen</br>UW2 110</br>TT/TH 5.45pm-8pm</p>
+            </div>
+          </div>
+        </div>
+</div>
